@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lovable</title>
+    <meta name="description" content="Professional graphic design, web development, and creative education by Kelvin. Portfolio, templates, and courses for Photoshop & InDesign." />
+    <meta name="author" content="Kelvin Magalas" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="Lovable" />
+    <meta property="og:description" content="Portfolio, templates, and educational courses by Kelvin Magalas" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@kelvinmagalas" />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" />
+    <!-- Favicon sizes for different devices - increased sizes -->
+    <link rel="icon" href="/kkk.png" type="image/png" sizes="32x32" />
+    <link rel="icon" href="/kkk.png" type="image/png" sizes="48x48" />
+    <link rel="icon" href="/kkk.png" type="image/png" sizes="96x96" />
+    <link rel="icon" href="/kkk.png" type="image/png" sizes="144x144" />
+    <link rel="icon" href="/kkk.png" type="image/png" sizes="192x192" />
+    <link rel="icon" href="/kkk.png" type="image/png" sizes="256x256" />
+    <!-- Apple Touch Icon (for iOS devices) -->
+    <link rel="apple-touch-icon" href="/kkk.png" sizes="180x180" />
+    <link rel="apple-touch-icon" href="/kkk.png" sizes="192x192" />
+    <!-- Microsoft Tile Icon -->
+    <meta name="msapplication-TileImage" content="/kkk.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <!-- Theme Color for Browser -->
+    <meta name="theme-color" content="#7c3aed" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6066759157273365" 
+      crossorigin="anonymous"></script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+    <style>
+      /* Custom animations for the website */
+      @keyframes pulse-icon {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.1); }
+        100% { transform: scale(1); }
+      }
+      
+      @keyframes rotate-icon {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      
+      @keyframes bounce-in {
+        0% { transform: scale(0); opacity: 0; }
+        60% { transform: scale(1.1); opacity: 1; }
+        100% { transform: scale(1); opacity: 1; }
+      }
+      
+      /* Apply animation to favicon */
+      link[rel="icon"] {
+        animation: pulse-icon 2s infinite;
+      }
+      
+      /* Page loading animation */
+      .page-transition {
+        animation: fadeIn 0.5s ease-in-out;
+      }
+      
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      
+      /* Custom cursor effect */
+      body {
+        cursor: url('/kkk.png') 16 16, auto;
+      }
+    </style>
+  </head>
+
+  <body class="page-transition">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
